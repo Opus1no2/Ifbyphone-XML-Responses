@@ -1,0 +1,15 @@
+<phpunit
+    color="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    processIsolation="failure"
+    stopOnFailure="failure"
+    syntaxCheck="false"
+>
+    <testsuites>
+        <testsuite name="Test">
+            <file>./tests/Routetest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
