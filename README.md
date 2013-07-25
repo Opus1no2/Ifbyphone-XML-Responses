@@ -40,7 +40,7 @@ Using the class is easy:
 ``` php
 <?php
 
-require_once 'path/to/Ifbyphone/Route.php'
+require_once 'path/to/Ifbyphone/Route.php';
 
 $route = new Route();
 
@@ -55,6 +55,6 @@ echo $route->hangup();
 
 ```
 
-License:
+License
 --------
 MIT
